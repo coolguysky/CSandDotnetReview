@@ -8,6 +8,53 @@ namespace CSReview
     {
         static void Main(string[] args)
         {
+
+
+
+
+
+
+
+            //Console.WriteLine("Enter the length of integer array.");
+            //int length = Convert.ToInt32(Console.ReadLine());
+            //int[] arr = new int[length];
+            //Console.WriteLine($"Enter the {length} values.");
+
+            //for (int i = 0; i < length; i++)
+            //{
+            //    arr[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+            //foreach (var item in arr)
+            //{
+
+            //    Console.WriteLine(item.ToString());
+            //}
+            //Console.WriteLine($"array: { string.Join(",", arr)} ");
+            
+
+            //int[] sortedArray = new int[length];
+            //Array.Copy(arr, sortedArray, arr.Length);
+            //Array.Sort(sortedArray);
+            //Console.WriteLine($"array with Array.sort : { string.Join(",", sortedArray)} ");
+
+            //for (int i = 0; i < length; i++)
+            //{
+            //    for (int j = i + 1; j < length; j++)
+            //    {
+            //        if (arr[i] > arr[j])
+            //        {
+            //            int temp = arr[i];
+            //            arr[i] = arr[j];
+            //            arr[j] = temp;
+            //        }
+
+            //    }
+            //}
+            //Console.WriteLine($"array with forxfor: { string.Join(",", arr)} ");
+            
+
+            /////////////////////////////////////////////////////////////
+
             //iteration - do/for/while loop i'm good
             // can put break or continue in for loop
 
@@ -20,15 +67,11 @@ namespace CSReview
 
             //Console.WriteLine("Yes or no");
 
-        
+
             //if (Console.ReadLine() == "yes")
             //{
             //  goto Start; //jump
             //}
-
-
-
-
 
 
             //foreach (var item in collection)
