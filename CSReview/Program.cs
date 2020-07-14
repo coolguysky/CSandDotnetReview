@@ -1,20 +1,61 @@
 ﻿using System;
 using System.Text;
+using System.Threading;
 
 namespace CSReview
 {
-    public struct Customer
-    {
-        public int Age;
-        public string Name;
-        public bool IsEmployee;
-    }
     class Program
     {
         static void Main(string[] args)
         {
+            //iteration - do/for/while loop i'm good
+            // can put break or continue in for loop
+
+            //bool nope = false;
+            //Start:
+            //do
+            //{
+            //  Console.WriteLine("hey");
+            //} while (nope);
+
+            //Console.WriteLine("Yes or no");
+
+        
+            //if (Console.ReadLine() == "yes")
+            //{
+            //  goto Start; //jump
+            //}
 
 
+
+
+
+
+            //foreach (var item in collection)
+            //{
+            //    
+            //    
+            //}
+
+            /////////////////////////////////////////////////////////////
+
+            //selection statements // i'm good
+            //switch
+
+            //string name = "Gregg";
+
+            //switch (name)
+            //{
+            //    case "Greg":
+            //        Console.WriteLine("Not name");
+            //        break;
+            //    case "Gregg":
+            //        Console.WriteLine("is name");
+            //        break;
+            //    default:
+            //        Console.WriteLine("what...");
+            //        break;
+            //}
 
             /////////////////////////////////////////////////////////////
 
@@ -97,6 +138,13 @@ namespace CSReview
             //Console.ForegroundColor = ConsoleColor.Yellow;
             //Console.WriteLine(employeeName + " is " + age + " old.");
             //Console.WriteLine("Is he an employee? " + (isEmployee ? "yes" : "no"));
+
+            //public struct Customer
+            //{
+            //    public int Age;
+            //    public string Name;
+            //    public bool IsEmployee;
+            //}
 
             //Customer cust;
             //cust.Age = 28;
