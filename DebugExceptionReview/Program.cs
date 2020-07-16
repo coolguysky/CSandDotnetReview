@@ -28,13 +28,13 @@ namespace DebugExceptionReview
                 int[] numbers = new int[3] { 4, 8, 10 };
                 Console.WriteLine(numbers[3]);
             }
-            catch (IndexOutOfRangeException ex)
+            catch (IndexOutOfRangeException)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Index out of boundary");
                 Console.ForegroundColor = ConsoleColor.White;
             }
-            catch  (DivideByZeroException ex)
+            catch  (DivideByZeroException )
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("You can't devide by zero.");
