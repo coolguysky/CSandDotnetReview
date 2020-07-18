@@ -4,12 +4,20 @@ using System.Text;
 
 namespace CSOOPReview
 {
-    class Car
+    public abstract class Car
     {
         public Car()
         {
-
+            Console.WriteLine("This is the constructor");
         }
+
+        public Car(int year)
+        {
+            Console.WriteLine("This is the param constructor");
+            _year = year;
+        }
+
+
         private string _make;
         //encapsulation 
         public string Make
@@ -38,6 +46,9 @@ namespace CSOOPReview
             get { return _year; }
             set { _year = value; }
         }
+
+        public abstract void ChangeGear();
+        //abstract means no objects of class
 
        
 
