@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CSOOPReview
 {
-    class ManualTransmission  : Car
+    class ManualTransmission  : Car, IConvertibleCar
     {
 
         public ManualTransmission()
@@ -20,6 +20,12 @@ namespace CSOOPReview
         public override void ChangeGear() //implement abstract class
         {
             Console.WriteLine("Manual gear change");
+        }
+
+        public bool changeRoofTop()
+        {
+            Console.WriteLine("No roof");
+            return true;
         }
 
         //both constructors are called

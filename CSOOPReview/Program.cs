@@ -40,15 +40,27 @@ namespace CSOOPReview
                 int enteredValue = Convert.ToInt32(Console.ReadLine());
                 if (enteredValue == 1)
                 {
-                    car = new ManualTransmission();
+                    car = new ManualTransmission(2000); //create at runtime 
                     check = false;
                 }
                 else
                 {
+                    car = new ManualTransmission(2000);
                     Console.WriteLine("just enter 1");
                 }
             }
-            
+
+            //car.ChangeGear(); wont work 
+
+            IConvertibleCar convertibleCar = new ManualTransmission();
+            convertibleCar.changeRoofTop();
+
+            //Car carTwo = new ManualTransmission();
+            //carTwo.changeRoofTop(); // won't work 
+
+            ManualTransmission carThree = new ManualTransmission();
+            carThree.changeRoofTop(); // does work 
+
 
 
         }
