@@ -1,4 +1,4 @@
-# DotNetReview
+# CSharpAnd.NetReview
 
 C# 8 Programming in 4 Hours - Nitin Rastogi (video lesson) - O'Reilly
 Chapters 1, 2, 3, 4
